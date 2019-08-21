@@ -6,10 +6,10 @@
 
 
 // build the library with simplest OT enabled
-#define ENABLE_SIMPLESTOT ON
+/* #undef ENABLE_SIMPLESTOT */
 
 // build the library with Silent OT Extension enabled
-#define ENABLE_SILENTOT ON
+/* #undef ENABLE_SILENTOT */
 
 // Silent OT requires bit poly mul
 #ifdef ENABLE_SILENTOT
@@ -17,7 +17,7 @@
 #endif
 
 // build the library with Kyber OT enabled
-// #define ENABLE_KYBEROT ON
+/* #undef ENABLE_KYBEROT */
 
 
 // build the library with simplest OT enabled
